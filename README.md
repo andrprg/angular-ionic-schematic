@@ -19,9 +19,11 @@ npm run build
 `npm run test` will run the unit tests, using Jasmine as a runner and test framework.
 
 ### Using a Published Schema in an Angular Project
-   npm link ../angular-ionic-schematic
-   
-   ng g angular-ionic-schematic:ionic-structure (or another)  
-
+```bash
+npm link ../angular-ionic-schematic
+```
+```bash
+ng g angular-ionic-schematic:ionic-structure (or another)  
+```
 
 That's it!
