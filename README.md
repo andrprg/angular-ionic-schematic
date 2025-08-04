@@ -20,6 +20,7 @@ npm run build
 
 ### Using a Published Schema in an Angular Project
    npm link ../angular-ionic-schematic
+   
    ng g angular-ionic-schematic:ionic-structure (or another)  
 
 
