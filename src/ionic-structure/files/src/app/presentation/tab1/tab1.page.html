@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 1
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 1</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-button (click)="onError()">Show Message</ion-button>
+  <ion-button (click)="onLoader()">Show Loader</ion-button>
+  <ion-toggle color="secondary" (ionChange)="toggle($event)"></ion-toggle>
+
+
+  <!--Добавить компонент-->
+</ion-content>

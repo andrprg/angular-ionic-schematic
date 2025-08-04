@@ -1,0 +1,26 @@
+.spinner-container {
+  z-index: 9;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.32);
+}
+
+.spinner {
+  z-index: 10;
+  --color: var(--text-green, #40C4FF);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 5rem;
+  width: 5rem;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+

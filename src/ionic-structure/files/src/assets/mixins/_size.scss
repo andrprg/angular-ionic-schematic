@@ -1,0 +1,16 @@
+@use "sass:math";
+
+// Функция для конвертации px в vw
+@function pxtovw($px, $base: 414px) {
+  $result: #{math.div($px, $base) * 100}vw;
+    @return $result;
+  }   
+  
+  
+// Функция для конвертации px в vh
+@function pxtovh($px, $base: 736px) {
+    $result: #{math.div($px, $base) * 100}vh;
+    @return $result;
+  }   
+
+

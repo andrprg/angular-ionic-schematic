@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 2
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 2</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <div class="st1">st1</div>
+    <div class="st2">st2</div>  
+    <div class="st3" appEllipsis>Это текст всего лишь в одну строку Шрифт 14px</div>
+    <div class="st4" appEllipsis [maxLines]="2">Этот текст должен обрезаться только на второй строке</div>
+  </div>
+</ion-content>

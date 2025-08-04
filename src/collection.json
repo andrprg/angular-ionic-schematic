@@ -1,0 +1,11 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "ionic-structure": {
+      "$id": "ionic-structure-id",
+      "description": "Создает структуру проекта для ionic приложения.",
+      "factory": "./ionic-structure/index#ionicStructureSchematic",
+      "schema": "./ionic-structure/schema.json"
+    }
+  }
+}
