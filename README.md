@@ -11,18 +11,16 @@ Check the documentation with
 ```bash
 schematics --help
 ```
+### Build
+npm run build
 
 ### Unit Testing
 
 `npm run test` will run the unit tests, using Jasmine as a runner and test framework.
 
-### Publishing
+### Using a Published Schema in an Angular Project
+   npm link ../angular-ionic-schematic
+   ng g angular-ionic-schematic:ionic-structure (or another)  
 
-To publish, simply do:
-
-```bash
-npm run build
-npm publish
-```
 
 That's it!
