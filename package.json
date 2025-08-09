@@ -15,7 +15,6 @@
   "dependencies": {
     "@angular-devkit/core": "^20.1.1",
     "@angular-devkit/schematics": "^20.1.1",
-    "angular-ionic-schematic": "file:angular-ionic-schematic-0.0.0.tgz",
     "typescript": "~5.8.2"
   },
   "devDependencies": {
